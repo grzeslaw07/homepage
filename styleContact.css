@@ -1,0 +1,66 @@
+body {
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+  }
+  .laska-ze-zezem{
+    height: auto;
+    width: 50%;
+    border-radius: 14px;
+    margin-left: 25%;
+  }
+  .navigation {
+    position: fixed;
+    width: 98%;
+    height: 14px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 8px;
+    border-radius: 8px;
+  }
+  .navigation__link {
+    color: aliceblue;
+    display: inline-block;
+    padding-bottom: auto;
+    margin-right: 20px;
+  }
+  .contact__header{
+    padding-top:40px;
+    color: beige;
+    text-align: center;
+  }
+  .contact__title{
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  .contact{
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    display: block;
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  .phone__number{
+    text-align: center;
+    font-size: 34px;
+    color: rgb(255, 0, 128);
+  }
+  .residential-address{
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    display: block;
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .information {
+    position: absolute;
+    right: 10px;
+    border-radius: 4px;
+    padding: 4px;
+  }

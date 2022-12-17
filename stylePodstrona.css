@@ -1,0 +1,53 @@
+body {
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+}
+.hello-grzegrz {
+  height: auto;
+  width: 50%;
+  border-radius: 14px;
+  margin-left: 25%;
+}
+.navigation {
+
+  width: 98%;
+  height: 14px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 8px;
+  border-radius: 8px;
+}
+.navigation__link {
+  color: aliceblue;
+  display: inline-block;
+  padding-bottom: auto;
+  margin-right: 20px;
+}
+.about-author__title{
+    text-align: center;
+}
+.about-authot__title--description{
+    text-align: center;
+}
+.about-author {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+  display: block;
+  width: 600px;
+  height: auto;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.about-author__description {
+  padding: 20px;
+  border: 10px;
+  background: rgba(51, 2, 156, 0.4);
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+}
+.information {
+  position: absolute;
+  right: 10px;
+  border-radius: 4px;
+  padding: 4px;
+}
