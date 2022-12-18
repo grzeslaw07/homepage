@@ -18,7 +18,7 @@ html {
 .navigation {
   position: fixed;
   width: 100%;
-  height: 14px;
+  height: 36px;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 8px;
   display: flex;
@@ -157,6 +157,19 @@ html {
   grid-template-columns: 1fr;
   grid-row-gap: 8px;
 }
+
+.main{
+  margin-top: 34px;
+}
+
+.header{
+  background:rgb(250, 121, 0);
+  min-height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .opening{
   width: 300px;
 }
@@ -166,8 +179,27 @@ html {
 .famous-people__article{
 width: 300px;
 }
-} 
+.navigation{
+height: 100px;
+background: darkorange;
+display: block;
+display: none;
+}
 
+.navigation--open{
+  display: block;
+}
+
+.navigation__link{
+  display: block;
+  margin: 6px;
+}
+.hamburger{
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+} 
 @media screen and (min-width: 1440px){
   .article-grid{
     display: grid;
@@ -179,4 +211,8 @@ width: 300px;
   .artical-grid__special{
     display: flex;
     justify-content: center;
+}
+.hamburger{
+  display: none;
+}
 }

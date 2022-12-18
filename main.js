@@ -19,3 +19,11 @@ function createContent(querySelectorContent, content){
 greet(firstName, age)
 
 createContent(`.article-about-bmw__title--js`,`Czy wiesz co to za model?`)
+
+
+const hamburger = document.querySelector('.hamburger--js');
+
+hamburger.addEventListener ('click',() => {
+    const nav = document.querySelector('.navigation--js');
+    nav.classList.toggle('navigation--open');
+})
