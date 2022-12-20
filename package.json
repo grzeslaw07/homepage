@@ -1,0 +1,24 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "sass": "npx node-sass -w scss/main.scss main.css", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grzeslaw07/homepage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grzeslaw07/homepage/issues"
+  },
+  "homepage": "https://github.com/grzeslaw07/homepage#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

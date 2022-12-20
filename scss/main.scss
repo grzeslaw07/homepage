@@ -1,0 +1,242 @@
+body {
+    background-image: radial-gradient(
+      circle farthest-corner at 10% 1%,
+      rgb(84, 90, 87) 20%,
+      rgb(16, 16, 39) 50%
+    );
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  .navigation {
+    position: fixed;
+    width: 100%;
+    height: 36px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 8px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .navigation__link {
+    color: aliceblue;
+    padding-bottom: auto;
+    margin-right: 20px;
+    align-items: center;
+  }
+  .opening {
+    display: block;
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  .opening-header {
+    font-size: 32px;
+    color: beige;
+    text-align: center
+  }
+  
+  .opening-header::after{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  
+  .opening-article {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .opening-article__hading {
+    text-align: center;
+  }
+  .opening-article__description {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+  }
+  .main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main-section__title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    text-align: center;
+    font-size: 34px;
+  }
+  
+  
+  .opening__title{
+    text-align: center;
+  }
+  .article-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    padding: 0 32px;
+  }
+  
+  .article-about {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    min-height: 640px;
+    padding: 20px;
+    overflow: auto;
+  }
+  .article-about--special {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    overflow: auto;
+    margin-left: 13%;
+  }
+  .article-about-bmw__description {
+    padding: 20px;
+    border: 10px;
+    background: rgba(51, 2, 156, 0.4);
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+  }
+  .article-about-bmw__title {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .article-about-bmw__title::before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.685);
+    border-radius: 50%;
+    margin-bottom: 2px;
+    margin-right: 10px;
+  }
+  
+  .famous-people__title {
+    text-align: center;
+    color: beige;
+  }
+  .famous-people__article {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    display: block;
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .famous-people__description {
+    padding: 20px;
+    border: 10px;
+    background: rgba(51, 2, 156, 0.4);
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+  }
+  .famous-people__name {
+    text-align: center;
+  }
+  .information {
+    right: 0;
+    border-radius: 4px;
+    padding: 4px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: aliceblue;
+  }
+  .picture-bmw {
+    height: auto;
+    width: 100%;
+    border-radius: 14px;
+  }
+  
+  @media screen and (max-width: 600px ){
+  .article-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 8px;
+  }
+  
+  .main{
+    margin-top: 34px;
+  }
+  
+  .header{
+    background:rgb(250, 121, 0);
+    min-height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .opening{
+    width: 300px;
+  }
+  .article-about{
+    width: 300px;
+  }
+  .famous-people__article{
+  width: 300px;
+  }
+  .navigation{
+  height: 100px;
+  background: darkorange;
+  display: block;
+  display: none;
+  }
+  
+  .navigation--open{
+    display: block;
+  }
+  
+  .navigation__link{
+    display: block;
+    margin: 6px;
+  }
+  .hamburger{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+  }
+  } 
+  @media screen and (min-width: 1440px){
+    .article-grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-row-gap: 8px;
+      justify-content: center;
+      align-items: center;
+    }
+    .artical-grid__special{
+      display: flex;
+      justify-content: center;
+  }
+  .hamburger{
+    display: none;
+  }
+  }
