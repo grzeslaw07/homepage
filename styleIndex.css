@@ -42,6 +42,17 @@ html {
   color: beige;
   text-align: center
 }
+
+.opening-header::after{
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
 .opening-article {
   background: rgba(255, 255, 255, 0.4);
   border-radius: 8px;
@@ -70,8 +81,9 @@ html {
   color: aliceblue;
   text-align: center;
   font-size: 34px;
-
 }
+
+
 .opening__title{
   text-align: center;
 }
@@ -112,6 +124,18 @@ html {
   margin: auto;
   text-align: center;
 }
+
+.article-about-bmw__title::before{
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.685);
+  border-radius: 50%;
+  margin-bottom: 2px;
+  margin-right: 10px;
+}
+
 .famous-people__title {
   text-align: center;
   color: beige;
