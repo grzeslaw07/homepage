@@ -17,12 +17,11 @@ html {
   padding: 8px;
   display: flex;
   justify-content: space-evenly; }
-
-.navigation__link {
-  color: aliceblue;
-  padding-bottom: auto;
-  margin-right: 20px;
-  align-items: center; }
+  .navigation__link {
+    color: aliceblue;
+    padding-bottom: auto;
+    margin-right: 20px;
+    align-items: center; }
 
 .opening {
   display: block;
@@ -52,26 +51,23 @@ html {
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 20px; }
-
-.opening-article__hading {
-  text-align: center; }
-
-.opening-article__description {
-  background: rgba(255, 255, 255, 0.4);
-  border-radius: 8px; }
+  .opening-article__hading {
+    text-align: center; }
+  .opening-article__description {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 8px; }
 
 .main-section {
   display: flex;
   flex-direction: column;
   align-items: center; }
-
-.main-section__title {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  color: aliceblue;
-  text-align: center;
-  font-size: 34px; }
+  .main-section__title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    text-align: center;
+    font-size: 34px; }
 
 .opening__title {
   text-align: center; }
@@ -88,16 +84,15 @@ html {
   min-height: 640px;
   padding: 20px;
   overflow: auto; }
-
-.article-about--special {
-  background: rgba(255, 255, 255, 0.4);
-  border-radius: 8px;
-  display: inline-block;
-  width: 400px;
-  height: 600px;
-  padding: 20px;
-  overflow: auto;
-  margin-left: 13%; }
+  .article-about--special {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    overflow: auto;
+    margin-left: 13%; }
 
 .article-about-bmw__description {
   padding: 20px;
